@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Noto+Sans+Nag+Mundari:wght@400;500;600;700&family=Patrick+Hand&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+}
+
+.link{
+    @apply text-white font-patrick font-bold py-2 px-4 rounded cursor-pointer hover:bg-secondary-400;
+}
