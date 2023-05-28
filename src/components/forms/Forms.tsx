@@ -1,12 +1,9 @@
+import {toy, planet, rainbow, sun} from '../../assets'
 import './forms.css'
-import toy from '../../assets/icons/toy.svg'
-import planet from '../../assets/icons/planet.svg'
-import rainbow from '../../assets/icons/rainbow.svg'
-import sun from '../../assets/icons/sun.svg'
 
 export const Forms = () => {
   return (
-    <section className='w-full flex flex-wrap justify-evenly p-4 font-patrick'>
+    <section className='w-full flex flex-wrap justify-evenly p-4 font-patrick bg-gray-100'>
         <article 
         data-aos="zoom-in"
         className='bg-secondary-200 box-info'>

@@ -9,7 +9,7 @@ export default {
       '150': '150px',
     },
     maxWidth:{
-      '300': '300px'
+      '250': '250px'
     },
     extend: {
       fontFamily:{

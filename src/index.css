@@ -5,8 +5,13 @@
 
 body{
     font-family: 'Noto Sans Nag Mundari', sans-serif;
+    user-select: none;
 }
 
 .link{
     @apply text-white font-patrick font-bold py-2 px-4 rounded cursor-pointer hover:bg-secondary-400;
+}
+
+.preloader{
+    height: 100vh;
 }

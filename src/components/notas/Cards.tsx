@@ -1,7 +1,4 @@
-import puzzle1 from '../../assets/svg/puzzle1.svg'
-import puzzle2 from '../../assets/svg/puzzle2.svg'
-import puzzle3 from '../../assets/svg/puzzle3.svg'
-import puzzle4 from '../../assets/svg/puzzle4.svg'
+import {puzzle1, puzzle2, puzzle3, puzzle4} from '../../assets'
 
 export const Cards = () => {
   return (
