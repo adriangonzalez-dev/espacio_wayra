@@ -7,7 +7,8 @@ import { Banner,
   Footer, 
   Profesionals, 
   Contact, 
-  Preloader } from "./components"
+  Preloader, 
+  Articles} from "./components"
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -41,6 +42,7 @@ function App() {
       <About/>
       <Profesionals/>
       <Notes/>
+      <Articles/>
       <Contact/>
       <Footer/>
     </>

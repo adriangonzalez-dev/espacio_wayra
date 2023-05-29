@@ -52,12 +52,16 @@ export const Contact = () => {
                             <Links/>
                         </div>
 
-                        <div className="mt-4 w-full flex items-center justify-center gap-2">
-                            <p className='text-center'>Ó a través de nuestro formulario de contacto</p>
+                        <div className="mt-4 w-full flex flex-col items-center justify-center gap-2">
+                            <h4 className='text-center mb-2'>Estamos en Rodriguez Peña 1044 7<sup>o</sup> A, San Miguel, Buenos Aires!</h4>
+                            <div className='w-full h-96'>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.5918133852988!2d-58.707322671501416!3d-34.544255693651216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0ee88cfc77%3A0xa09df876db315413!2sRodr%C3%ADguez%20Pena%201044%2C%20B1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1685321569346!5m2!1ses!2sar" className='w-full h-full' style={{border:0}} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+                    <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 font-patrick">
+                        <h3 className='text-2xl text-center mb-4'>Dejanos tu mensaje!</h3>
                         {successMessage && <SuccessAlert message={successMessage}/>}
                         <form
                         onSubmit={handleSubmit(onSubmit)} className="space-y-4">
@@ -126,7 +130,7 @@ export const Contact = () => {
 
                                 <textarea
                                     className="w-full rounded-lg border-gray-200 p-3 text-sm focus:outline-secondary-100"
-                                    placeholder="Message"
+                                    placeholder="Mensaje"
                                     rows={8}
                                     {...register('Mensaje',{
                                         required: 'Este campo es obligatorio',

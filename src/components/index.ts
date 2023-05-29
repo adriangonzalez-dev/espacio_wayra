@@ -8,3 +8,4 @@ export * from './forms/Forms';
 export * from './header/Header';
 export * from './notas/Notes';
 export * from './preloader/Preloader';
+export * from './articles/Articles';

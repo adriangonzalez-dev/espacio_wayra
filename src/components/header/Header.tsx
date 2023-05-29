@@ -22,7 +22,7 @@ export const Header = ({visible}:Props) => {
         </div>
 
         <nav 
-        className={`flex bg-secondary-100
+        className={`flex bg-inherit
         h-48 flex-col absolute w-full items-center justify-center gap-2 top-16 left-0 ${menu ? 'translate-y-0' : '-translate-y-64'} sm:translate-y-0 sm:flex-row sm:top-0 sm:h-full bg-inherit duration-200 z-0`}>
             <span className="link">Link 1</span>
             <span className="link">Link 2</span>
